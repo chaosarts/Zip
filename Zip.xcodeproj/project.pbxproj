@@ -22,6 +22,9 @@
 		07B2360B21C2C698001E8634 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* zip.h */; };
 		07B2360C21C2C698001E8634 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FF21C2C674001E8634 /* unzip.h */; };
 		07B2360D21C2C698001E8634 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2360121C2C674001E8634 /* ioapi.h */; };
+		0DEE97862BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0DEE97852BCE69A8006C2493 /* PrivacyInfo.xcprivacy */; };
+		0DEE97872BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0DEE97852BCE69A8006C2493 /* PrivacyInfo.xcprivacy */; };
+		0DEE97882BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0DEE97852BCE69A8006C2493 /* PrivacyInfo.xcprivacy */; };
 		303B4F6E1E4CBE5000DC1633 /* permissions.zip in Resources */ = {isa = PBXBuildFile; fileRef = 303B4F6D1E4CBE5000DC1633 /* permissions.zip */; };
 		305237181E64595700CA46D1 /* unsupported_permissions.zip in Resources */ = {isa = PBXBuildFile; fileRef = 305237171E64595700CA46D1 /* unsupported_permissions.zip */; };
 		342545901CE525B200336074 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E3AD71C1E04C900A11FD3 /* Zip.swift */; };
@@ -80,6 +83,7 @@
 		07B235FE21C2C674001E8634 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		07B235FF21C2C674001E8634 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		07B2360121C2C674001E8634 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0DEE97852BCE69A8006C2493 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		303B4F6D1E4CBE5000DC1633 /* permissions.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = permissions.zip; sourceTree = "<group>"; };
 		305237171E64595700CA46D1 /* unsupported_permissions.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = unsupported_permissions.zip; sourceTree = "<group>"; };
 		342545B51CE525B200336074 /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +228,7 @@
 				343625BA1C5827DC0023C4C6 /* ZipUtilities.swift */,
 				3443A3F51C4AB8A3004AD173 /* QuickZip.swift */,
 				3430F61F1C45C805007473A6 /* libz.tbd */,
+				0DEE97852BCE69A8006C2493 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Zip;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEE97882BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEE97872BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEE97862BCE69A8006C2493 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
