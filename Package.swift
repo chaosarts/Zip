@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
@@ -20,7 +20,8 @@ let package = Package(
             name: "Zip",
             dependencies: ["Minizip"],
             path: "Zip",
-            exclude: ["minizip", "zlib"]),
+            exclude: ["minizip", "zlib"],
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]),
         .testTarget(
             name: "ZipTests",
             dependencies: ["Zip"],
